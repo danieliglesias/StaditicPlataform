@@ -1,0 +1,42 @@
+.row{
+    margin-top: 15px;
+}
+h2{
+    margin: 5px 5px 5px 5px;
+}
+.panel-body{
+    margin: 5px 5px 5px 5px;
+    padding: 5px 5px 5px 5px;
+}
+td,p{
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+#chart_div{
+    margin-left: 50px;
+}
+#page {
+    display: none;
+}
+#loading {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(192, 192, 192, 0.5);
+    background-image: url('../img/ajax-loader.gif');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#canvassize{
+    height: 300px;
+    width: 500px;
+}
+.alert{
+padding-top: 5px;
+padding-bottom: 5px;
+}
